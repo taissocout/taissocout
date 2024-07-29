@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Perfil do GitHub</title>
 </head>
 <body>
 <h1>Bem-vindo(a) ao meu perfil pessoal😁</h1>
