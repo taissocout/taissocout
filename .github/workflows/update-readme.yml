@@ -1,0 +1,126 @@
+name: Update README Metrics
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Update metrics in README
+        env:
+          GITHUB_USER: taissocout
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 << 'SCRIPT'
+          import requests, os, re, textwrap
+          from datetime import datetime, timezone
+
+          user = os.environ["GITHUB_USER"]
+          token = os.environ["GITHUB_TOKEN"]
+          headers = {"Authorization": f"Bearer {token}"}
+
+          query = """{ user(login: "%s") {
+            repositories(first: 100, ownerAffiliations: OWNER) { totalCount }
+            contributionsCollection {
+              totalCommitContributions
+              contributionCalendar {
+                totalContributions
+                weeks { contributionDays { date contributionCount } }
+              }
+            }
+          }}""" % user
+
+          r = requests.post("https://api.github.com/graphql",
+              json={"query": query}, headers=headers)
+          data = r.json().get("data", {}).get("user", {})
+          total_repos = data.get("repositories", {}).get("totalCount", 0)
+          contrib = data.get("contributionsCollection", {})
+          total_commits = contrib.get("totalCommitContributions", 0)
+          cal = contrib.get("contributionCalendar", {})
+
+          all_days = []
+          for week in cal.get("weeks", []):
+              for day in week.get("contributionDays", []):
+                  all_days.append((day["date"], day["contributionCount"]))
+          all_days.sort(reverse=True)
+
+          streak = 0
+          for _, count in all_days:
+              if count > 0: streak += 1
+              else: break
+
+          updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+          block = f"""<!-- README_METRICS_START -->
+<div align="center">
+
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={user}&theme=tokyonight"/>
+
+<br/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username={user}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user={user}&theme=tokyonight&hide_border=true&background=0d1117&ring=00ff88&fire=00ff88&currStreakLabel=00ff88"/>
+
+<br/>
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username={user}&theme=tokyonight"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username={user}&theme=tokyonight"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username={user}&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00ff88&line=00ff88&point=ffffff"/>
+
+<br/>
+
+![Repos](https://img.shields.io/badge/Public_Repos-{total_repos}-1a1a2e?style=flat-square&logoColor=00ff88)
+![Commits](https://img.shields.io/badge/Total_Commits-{total_commits}-1a1a2e?style=flat-square&logoColor=00ff88)
+![Streak](https://img.shields.io/badge/Current_Streak-{streak}_days-00ff88?style=flat-square&logoColor=black)
+
+<sub>Last updated: {updated}</sub>
+
+</div>
+<!-- README_METRICS_END -->"""
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          new_content = re.sub(
+              r"<!-- README_METRICS_START -->.*?<!-- README_METRICS_END -->",
+              block, content, flags=re.DOTALL)
+
+          with open("README.md", "w") as f:
+              f.write(new_content)
+
+          print(f"Done: repos={total_repos}, commits={total_commits}, streak={streak}")
+          SCRIPT
+
+      - name: Commit updated README
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (
+            git add README.md &&
+            git commit -m "chore(metrics): auto-update README stats [skip ci]" &&
+            git push
+          )
