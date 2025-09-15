@@ -199,17 +199,3 @@ certifications/
 
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
