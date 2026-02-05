@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
 
-
+```txt
 ████████╗ █████╗ ██╗███████╗███████╗ ██████╗      ██████╗ ██████╗ ██╗   ██╗████████╗
 ╚══██╔══╝██╔══██╗██║██╔════╝██╔════╝██╔═══██╗    ██╔════╝██╔═══██╗██║   ██║╚══██╔══╝
    ██║   ███████║██║███████╗███████╗██║   ██║    ██║     ██║   ██║██║   ██║   ██║
@@ -11,6 +11,7 @@
    ╚═╝   ╚═╝  ╚═╝╚═╝╚══════╝╚══════╝ ╚═════╝      ╚═════╝ ╚═════╝  ╚═════╝    ╚═╝
 
         Programming & Cybersecurity Student • Linux • Automation • Security
+```
 <p> 🛡️ <b>Estudante de Programação e Cibersegurança</b><br/> Explorando desenvolvimento, automação, redes e fundamentos de segurança da informação </p> <p> <a href="https://github.com/taissocout"> <img src="https://komarev.com/ghpvc/?username=taissocout&style=for-the-badge&color=00e5ff" /> </a> <a href="https://github.com/taissocout?tab=followers"> <img src="https://img.shields.io/github/followers/taissocout?style=for-the-badge&label=Followers&color=00e5ff" /> </a> <img src="https://img.shields.io/badge/Focus-Cybersecurity-00e5ff?style=for-the-badge" /> </p> </div>
 🧑‍💻 Sobre mim
 📚 Estudante de Programação e Cibersegurança
