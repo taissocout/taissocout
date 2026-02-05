@@ -53,16 +53,6 @@ Explorando desenvolvimento, automação, redes e fundamentos de segurança da in
 
 <div align="center">
 
-## 🔥 GitHub Streak
-
-<img src="https://streak-stats.demolab.com?user=taissocout&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-<div align="center">
-
 ## 🧰 Tecnologias & Ferramentas
 
 <img height="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
