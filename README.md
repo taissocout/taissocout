@@ -25,23 +25,8 @@ Explorando desenvolvimento, automação, redes e fundamentos de segurança da in
 ---
 
 <div align="center">
-
-## 📊 GitHub Stats
-
-<img
-  height="170"
-  alt="GitHub Stats"
-  src="https://github-readme-stats.vercel.app/api?username=taissocout&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=1800"
-/>
-
-<!-- 🍕 Gráfico Pizza (Top Languages) -->
-<img
-  height="170"
-  alt="Top Languages (Pie)"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=taissocout&layout=pie&theme=tokyonight&hide_border=true&cache_seconds=1800"
-/>
-
-</div>
+📊 GitHub Stats (funcional)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=taissocout&theme=tokyonight" alt="Profile Details"/> <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=taissocout&theme=tokyonight" alt="Stats"/> <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=taissocout&theme=tokyonight" alt="Most Commit Language"/> </div>
 
 ---
 
