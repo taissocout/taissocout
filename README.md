@@ -70,7 +70,7 @@ Explorando desenvolvimento, automação, redes e fundamentos de segurança da in
 
 ## 🌐 Conecte-se comigo
 
-<a href="https://instagram.com/odukeof">
+<a href="https://instagram.com/taissocout">
   <img src="https://img.shields.io/badge/Instagram-00e5ff?style=for-the-badge&logo=instagram&logoColor=black"/>
 </a>
 <a href="mailto:taissocout@gmail.com">
