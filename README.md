@@ -7,15 +7,14 @@
 ╚══██╔══╝██╔══██╗██║██╔════╝██╔════╝██╔═══██╗    ██╔════╝██╔═══██╗██║   ██║╚══██╔══╝
    ██║   ███████║██║███████╗███████╗██║   ██║    ██║     ██║   ██║██║   ██║   ██║
    ██║   ██╔══██║██║╚════██║╚════██║██║   ██║    ██║     ██║   ██║██║   ██║   ██║
-   ██║   ██║  ██║██║███████║███████║╚██████╔╝    ╚██████╗╚██████╔╝╚██████╔╝   ██║
+   ██║   ██║  ██║██║███████║███████╗╚██████╔╝    ╚██████╗╚██████╔╝╚██████╔╝   ██║
    ╚═╝   ╚═╝  ╚═╝╚═╝╚══════╝╚══════╝ ╚═════╝      ╚═════╝ ╚═════╝  ╚═════╝    ╚═╝
-
-Programming & Cybersecurity Student
-Linux • Automation • Security
 </pre>
 
+### 🛡️ Programming & Cybersecurity Student  
+**Linux • Automation • Security • Networking**
+
 <p>
-🛡️ <b>Estudante de Programação e Cibersegurança</b><br/>
 Explorando desenvolvimento, automação, redes e fundamentos de segurança da informação
 </p>
 
@@ -29,12 +28,13 @@ Explorando desenvolvimento, automação, redes e fundamentos de segurança da in
 
 ---
 
-## 🧑‍💻 Sobre mim
+## 👨‍💻 Sobre mim
 
-- 📚 Estudante de **Programação e Cibersegurança**
-- 🐧 Foco em **Linux**, **automação**, **scripts** e **boas práticas**
-- 🔐 Interesse em **segurança ofensiva e defensiva**
-- 🧪 Praticando com **projetos próprios**, **labs** e **estudos contínuos**
+- 🎓 Estudante de **Programação e Cibersegurança**
+- 🐧 Forte interesse em **Linux**, **Shell Script** e **automação**
+- 🔐 Estudando **segurança ofensiva e defensiva**
+- 🧪 Aprendizado contínuo com **labs**, **CTFs** e **projetos práticos**
+- 📈 Foco em **boas práticas**, **documentação** e **código limpo**
 
 ---
 
@@ -46,17 +46,6 @@ Explorando desenvolvimento, automação, redes e fundamentos de segurança da in
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=taissocout&theme=tokyonight"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=taissocout&theme=tokyonight"/>
-
-</div>
-
----
-
-<div align="center">
-
-## 🍕 Linguagens mais usadas
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=taissocout&theme=tokyonight"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=taissocout&theme=tokyonight&utcOffset=-3"/>
 
 </div>
 
@@ -76,11 +65,12 @@ Explorando desenvolvimento, automação, redes e fundamentos de segurança da in
 
 ## 🧰 Tecnologias & Ferramentas
 
-<img height="36" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"/>
-<img height="36" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/>
-<img height="36" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"/>
-<img height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"/>
-<img height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"/>
+<img height="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
+<img height="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+<img height="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"/>
+<img height="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/>
+<img height="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+<img height="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
 
 </div>
 
