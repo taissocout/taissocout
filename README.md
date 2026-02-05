@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
 
-```txt
+
 ████████╗ █████╗ ██╗███████╗███████╗ ██████╗      ██████╗ ██████╗ ██╗   ██╗████████╗
 ╚══██╔══╝██╔══██╗██║██╔════╝██╔════╝██╔═══██╗    ██╔════╝██╔═══██╗██║   ██║╚══██╔══╝
    ██║   ███████║██║███████╗███████╗██║   ██║    ██║     ██║   ██║██║   ██║   ██║
@@ -35,4 +35,4 @@
 <img height="36" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"/> &nbsp;&nbsp; <img height="36" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/> &nbsp;&nbsp; <img height="36" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"/> &nbsp;&nbsp; <img height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"/> &nbsp;&nbsp; <img height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"/> </div>
 <div align="center">
 🌐 Conecte-se comigo
-<a href="https://instagram.com/odukeof" target="_blank"> <img src="https://img.shields.io/badge/Instagram-00e5ff?style=for-the-badge&logo=instagram&logoColor=black"/> </a> &nbsp; <a href="mailto:taissocout@gmail.com"> <img src="https://img.shields.io/badge/Gmail-00e5ff?style=for-the-badge&logo=gmail&logoColor=black"/> </a> &nbsp; <a href="https://www.linkedin.com/in/taissocout" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-00e5ff?style=for-the-badge&logo=linkedin&logoColor=black"/> </a> </div> <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/> ```txt
+<a href="https://instagram.com/odukeof" target="_blank"> <img src="https://img.shields.io/badge/Instagram-00e5ff?style=for-the-badge&logo=instagram&logoColor=black"/> </a> &nbsp; <a href="mailto:taissocout@gmail.com"> <img src="https://img.shields.io/badge/Gmail-00e5ff?style=for-the-badge&logo=gmail&logoColor=black"/> </a> &nbsp; <a href="https://www.linkedin.com/in/taissocout" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-00e5ff?style=for-the-badge&logo=linkedin&logoColor=black"/> </a> </div> <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
