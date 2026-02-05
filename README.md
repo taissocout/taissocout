@@ -80,6 +80,8 @@ Explorando desenvolvimento, automação, redes e fundamentos de segurança da in
 </a>
 
 </div>
+<div align="center">
+
 ```txt
 ████████╗ █████╗ ██╗███████╗███████╗ ██████╗      ██████╗ ██████╗ ██╗   ██╗████████╗
 ╚══██╔══╝██╔══██╗██║██╔════╝██╔════╝██╔═══██╗    ██╔════╝██╔═══██╗██║   ██║╚══██╔══╝
