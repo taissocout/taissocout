@@ -41,7 +41,7 @@ Available : Open to remote opportunities
 
 ## `$ cat ./projects/featured`
 
-### 🔐 [CipherMind](https://github.com/taissocout/ciphermind) — AI-Powered Cybersecurity Intelligence Platform
+### 🔐 [CipherMind](https://github.com/taissocout/ciphermind) — AI-Powered Cybersecurity Intelligence Platform https://ciphermind.vercel.app/
 
 ```yaml
 stack:    React + Vite + Node.js + Claude API
