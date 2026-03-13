@@ -185,6 +185,10 @@ Secure-by-design backend and full-stack applications.
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=taissocout&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88&text_color=c9d1d9"/>
 
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=taissocout&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=c9d1d9"/>
+
+<br><br>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=taissocout&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00ff88&line=00ff88&point=ffffff"/>
 
 </div>
